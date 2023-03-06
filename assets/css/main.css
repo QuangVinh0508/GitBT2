@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.content {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 20rem;
+    height: 20rem;
+    cursor: pointer;
+}
+
+.box1 {
+    background-color: darkcyan;
+}
+
+.box2 {
+    background-color: darkgoldenrod;
+}
+
+.box3 {
+    background-color: darksalmon;
+}
