@@ -1,23 +1,23 @@
-// Change background box1 -> box2
+// Change box1 -> box2
 var box1 = document.querySelector('.box1');
-
 box1.onclick = function () {
-
- this.style.backgroundColor = "darkgoldenrod";
+    box1.style.display = "none";
+    box2.style.display = "block";
+    box3.style.display = "none";
 };
 
-// Change background box2 -> box3
+// Change box2 -> box3
 var box2 = document.querySelector('.box2');
-
 box2.onclick = function () {
-
- this.style.backgroundColor = "darksalmon";
+    box1.style.display = "none";
+    box2.style.display = "none";
+    box3.style.display = "block";
 };
 
-// Change background box3 -> box1
+// Change box3 -> box1
 var box3 = document.querySelector('.box3');
-
 box3.onclick = function () {
-
- this.style.backgroundColor = "darkcyan";
+    box1.style.display = "block";
+    box2.style.display = "none";
+    box3.style.display = "none";
 };

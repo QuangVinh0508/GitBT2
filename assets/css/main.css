@@ -23,6 +23,10 @@ body {
     width: 20rem;
     height: 20rem;
     cursor: pointer;
+    text-align: center;
+    color: #fff;
+    line-height: 20rem;
+    font-size: 2rem;
 }
 
 .box1 {
