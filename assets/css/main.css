@@ -17,6 +17,7 @@ body {
     margin: 1rem auto;
     display: flex;
     justify-content: space-around;
+    user-select: none;
 }
 
 .box {
